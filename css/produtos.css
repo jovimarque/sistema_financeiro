@@ -1,0 +1,69 @@
+
+
+#tituloNavegacao{
+	border-bottom: 1px solid #ccc;
+}
+
+/*
+
+#menuLateral{
+	width: 280px;
+	height: 430px;
+	float: left;
+	margin-left:25.5%;
+	margin-top: 5px;
+	border: 1px solid black;
+	clear: both;
+}
+
+#menuLateral h3{
+	text-align: left;
+	margin: 10px;
+
+}
+
+
+#menuLateral ul {
+	list-style: none;
+	text-align: left;
+}
+#menuLateral ul li a {
+	display: block;
+	margin: 15px;
+	text-decoration: none;
+	color: black;
+}
+*/
+
+#corpoPrincipal{
+	border: 1px solid black;
+	width: 35%;
+	margin: 5px 39%;
+	padding: 10px;
+}
+
+form{
+	text-align: center;
+}
+form input{
+	display: block;
+	margin: 0px auto;
+}
+
+.identificacao{
+	
+	background-color: #dcdde1;
+	padding: 7px;
+	margin: 0px;
+}
+
+.titulo{
+	background-color: #2f3640;
+	margin: 0px;
+	color: white;
+}
+button{
+	width: 15%;
+	margin: 10px;
+	border-radius: 10px;
+}

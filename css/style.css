@@ -1,0 +1,63 @@
+body{
+background-color: #ccc;
+}
+
+
+.menu{
+    border:1px solid black
+}
+
+
+.menu ul {
+    list-style:none;
+    text-align: center;
+    
+}
+
+.menu ul li {
+    display: inline-block;
+    margin:10px;
+    font-size: 18px;
+    font-family: monospace;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+
+.menu ul li a:hover{
+    text-decoration: none;
+    color:rgb(170, 170, 19);
+}
+
+form{
+
+    border:1px solid black;
+    width: 35%;
+    padding: 30px;
+    margin:15% auto;
+    text-align: center;
+}
+
+form input{
+    display: block;
+    text-align: center;
+    margin:0px auto;
+    
+}
+
+button{
+    margin:10px;
+}
+
+.mensagem{
+ margin:0px auto;
+}
+
+ #corpo>p {
+   margin:0px;
+    text-align: center;
+    color:red;
+}

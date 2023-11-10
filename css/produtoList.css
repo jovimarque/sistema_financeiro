@@ -1,0 +1,75 @@
+#tituloNavegacao{
+	border-bottom: 1px solid #ccc;
+}
+
+#menuLateral{
+	width: 280px;
+	height: 430px;
+	float: left;
+	margin-left:25.5%;
+	margin-top: 5px;
+	border: 1px solid black;
+	clear: both;
+}
+
+#menuLateral h3{
+	text-align: left;
+	margin: 10px;
+
+}
+
+#menuLateral ul {
+	list-style: none;
+	text-align: left;
+}
+#menuLateral ul li a {
+	display: block;
+	margin: 15px;
+	text-decoration: none;
+	color: black;
+}
+
+#corpoPrincipal{
+	border: 1px solid black;
+	width: 35%;
+	margin: 5px 39%;
+	padding: 10px;
+}
+
+
+#listaProduto{
+	padding: 5px;
+	margin: 0px;
+}
+
+#listaProduto table{
+	width: 100%;
+	border: 1px solid #718093;
+	margin:  0px auto;
+}
+
+#listaProduto table th {
+	border: 1px solid #7f8fa6;
+	background-color: #dcdde1;
+	padding: 5px;
+	
+}
+
+#listaProduto table td{
+	border: 1px solid #718093;
+	background-color: #f5f6fa;
+	text-align: center;
+	padding: 5px;
+}
+
+#listaProduto h4{
+	margin: 0px;
+	padding: 0px;
+	background-color: #718093;
+
+
+}
+
+.listaProduto h6 a{
+	color: black;
+}

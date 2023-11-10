@@ -1,0 +1,154 @@
+#cabecalho{
+	width: 49%;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+#navegacao{
+	width: 100%;	
+	background-color: #718093;
+	padding: 5px;
+}
+
+#navegacao ul{
+ list-style: none;
+ text-align: center;
+
+
+ 
+}
+
+#navegacao ul li{
+	display: inline-block;
+	margin: 10px auto;
+	padding: 2.5px;
+	
+}
+
+#navegacao ul li a{
+	 color: black;
+	 text-decoration: none;
+	
+}
+
+
+
+
+
+
+
+/**dropdrown**/
+
+
+.dropbtn{
+	color: white;
+	
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width:160px; 
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); 
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+/*
+.dropdrown-content a:hover {
+	background-color: #000;
+
+}
+
+*/
+
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+
+
+
+
+
+#tituloNavegacao{
+	border-bottom: 1px solid #ccc;
+}
+
+/*
+
+#menuLateral{
+	width: 280px;
+	height: 430px;
+	float: left;
+	margin-left:25.5%;
+	margin-top: 5px;
+	border: 1px solid black;
+	clear: both;
+}
+
+#menuLateral h3{
+	text-align: left;
+	margin: 10px;
+
+}
+
+
+#menuLateral ul {
+	list-style: none;
+	text-align: left;
+}
+#menuLateral ul li a {
+	display: block;
+	margin: 15px;
+	text-decoration: none;
+	color: black;
+}
+*/
+
+#corpoPrincipal{
+	border: 1px solid black;
+	width: 35%;
+	margin: 5px 39%;
+	padding: 10px;
+}
+
+form{
+	text-align: center;
+}
+form input{
+	display: block;
+	margin: 0px auto;
+}
+
+.identificacao{
+	
+	background-color: #dcdde1;
+	padding: 7px;
+	margin: 0px;
+}
+
+.titulo{
+	background-color: #2f3640;
+	margin: 0px;
+	color: white;
+}
+button{
+	width: 15%;
+	margin: 10px;
+	border-radius: 10px;
+}
